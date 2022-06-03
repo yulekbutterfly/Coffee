@@ -3,8 +3,9 @@
 <h1>Проект АИС для кофейни.</h1>
 <br>Начальное окно-авторизация. В зависимости от должности сотрудника, открываются два вида окон, тем самым удаётся получить более расширенный функционал для должности менеджера.<br>
 <br>Возможности пользователя с ролью "Администратор" после авторизации в системе:<br>
-![image](https://user-images.githubusercontent.com/98512778/171846696-12255fc7-bb98-4bee-ba57-499844969b2a.png)
-![image](https://user-images.githubusercontent.com/98512778/171846707-4fa88733-8828-4463-a61b-445ac80b0f95.png)
+![image](https://user-images.githubusercontent.com/98512778/171858455-5953c313-54c7-4b2a-921f-2d28ee21219a.png)
+![image](https://user-images.githubusercontent.com/98512778/171858473-f0eb087e-0f75-469a-b015-e19269db8923.png)
+
 
 <br>Возможности пользователя с ролью "Менеджер" после авторизации в системе:<br>
 ![image](https://user-images.githubusercontent.com/98512778/171846970-974592d2-9e34-4af7-aeb5-2a7fa449bd11.png)
