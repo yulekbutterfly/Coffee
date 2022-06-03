@@ -19,6 +19,7 @@
 ![image](https://user-images.githubusercontent.com/98512778/171847433-d1c7e9c3-acf6-4f7b-9481-d3df8bb323d7.png)
 
 <br>Поиск определенного наименования товарной позиции<br>
+<br>В создании заказа, в ячейке справа "Состав заказа", есть возможность удаления позиции из состава, кликнув два раза по наименованию позиции, необходимую удалить.<br>
 ![image](https://user-images.githubusercontent.com/98512778/171863839-b77d2555-f1c3-491d-a905-509003fc55a2.png)
 ![image](https://user-images.githubusercontent.com/98512778/171863912-097afdb4-31ac-4384-94c3-71ff490a3407.png)
 
@@ -78,8 +79,6 @@
 ![image](https://user-images.githubusercontent.com/98512778/171869313-b868eafe-b4fa-4e8f-b0e5-fd6d6b1a9002.png)
 
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+
+
 
