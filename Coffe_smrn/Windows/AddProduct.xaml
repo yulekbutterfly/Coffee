@@ -1,0 +1,145 @@
+﻿<Window x:Class="Coffe_smrn.Windows.AddProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coffe_smrn.Windows"
+        mc:Ignorable="d"
+        Title="AddProduct" Height="500" Width="500" Background="#FFFBEFDF" FontFamily="Ubuntu"
+        WindowStartupLocation="CenterScreen" Foreground="#FF462E25">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            FontSize="25"
+            Margin="0 10 0 0"
+            x:Name="tb_name" FontFamily="Ubuntu"
+            >
+            Добавление товаров
+        </TextBlock>
+        <TextBlock
+            FontSize="20"
+            Grid.Row="1"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0 0 10 0"
+            >
+            Название :
+        </TextBlock>
+        <TextBlock
+            FontSize="20"
+            Grid.Row="2"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0 0 10 0"
+            >
+            Описание :
+        </TextBlock>
+        <TextBlock
+            FontSize="20"
+            Grid.Row="4"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0 0 10 0"
+            >
+            Цена :
+        </TextBlock>
+        <TextBlock
+            FontSize="20"
+            Grid.Row="5"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0 0 10 0"
+            >
+            Тип продукта :
+        </TextBlock>
+        <Button
+            Style="{DynamicResource ButtonStyle}"
+            Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25"
+            x:Name="btn_back"
+            Content="←"
+            FontSize="30"
+            Width="40"
+            Height="40"           
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            HorizontalAlignment="Left"
+            Margin=" 25 0 0 0"  BorderThickness="0,0,0,0"
+            >
+
+        </Button>
+        <TextBox
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="35"
+            Width="250"
+            VerticalContentAlignment="Center"
+            FontSize="15"
+            MaxLength="100"
+            x:Name="tb_title" 
+            Background="#FFFFFAF3" BorderBrush="#FF987C71" SelectionBrush="#FF462E25" PreviewTextInput="tb_title_PreviewTextInput"
+            >
+        </TextBox>
+        <TextBox
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.RowSpan="2"
+            Height="80"
+            Width="250"
+            VerticalContentAlignment="Center"
+            FontSize="15"
+            MaxLength="100"
+            x:Name="tb_description"
+            Background="#FFFFFAF3" BorderBrush="#FF987C71" SelectionBrush="#FF462E25" PreviewTextInput="tb_title_PreviewTextInput"
+            >
+        </TextBox>
+        <TextBox
+            Grid.Row="4"
+            Grid.Column="1"
+            Height="35"
+            Width="250"
+            VerticalContentAlignment="Center"
+            FontSize="15"
+            MaxLength="12"
+            x:Name="tb_price"
+            Background="#FFFFFAF3" BorderBrush="#FF987C71" SelectionBrush="#FF462E25" PreviewTextInput="tb_price_PreviewTextInput"
+            >
+        </TextBox>
+        <ComboBox
+            Grid.Row="5"
+            Grid.Column="1"
+            Height="35"
+            Width="250"
+            VerticalContentAlignment="Center"
+            FontSize="15"
+            x:Name="cb_type"
+            >
+        </ComboBox>
+        <Button
+            Style="{DynamicResource ButtonStyle}"
+            x:Name="btn_add"
+            Grid.ColumnSpan="2"
+            Grid.Row="6"
+            HorizontalAlignment="Center"
+            FontSize="25"
+            Width="200"
+            Height="40"
+            Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25" FontFamily="Ubuntu" FontWeight="Normal" Click="btn_add_Click"
+            >
+            Добавить
+        </Button>
+    </Grid>
+</Window>

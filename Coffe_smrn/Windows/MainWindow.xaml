@@ -1,0 +1,45 @@
+﻿<Window x:Class="Coffe_smrn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coffe_smrn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400" Background="#FFFBEFDF" FontFamily="Ubuntu"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel
+            Margin="60 70 60 100"
+            VerticalAlignment="Center"
+            >
+            <Button Style="{DynamicResource ButtonStyle}"
+                Width="260"
+                Height="50" Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25"
+                Content="Создать заказ"
+                FontSize="20"
+                x:Name="btn_makeOrder" Click="btn_makeOrder_Click"/>
+            <Button Style="{DynamicResource ButtonStyle}"
+                Width="260"
+                Height="50" Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25"
+                Content="Отчетность"
+                FontSize="20" 
+                Margin="0 30 0 0"
+                    x:Name="btn_report" Click="btn_report_Click"
+                    Visibility="Visible"/>
+            <Button Style="{DynamicResource ButtonStyle}"
+                Width="260"
+                Height="50" Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25"
+                Content="Список сотрудников"
+                FontSize="20" 
+                Margin="0 30 0 0"
+                    x:Name="btn_employeeList" Click="btn_employeeList_Click"/>
+            <Button Style="{DynamicResource ButtonStyle}"
+                Width="260"
+                Height="50" Background="#00000000" BorderBrush="#FF462E25" Foreground="#FF462E25"
+                Content="Список товаров"
+                FontSize="20" 
+                Margin="0 30 0 0"
+                    x:Name="btn_productList" Click="btn_productList_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
